@@ -1,0 +1,2 @@
+August 8th 2024 -
+Decided to learn Django framework to become more competitive in Software Engineering fields regarding the use of python
