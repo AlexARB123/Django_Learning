@@ -1,2 +1,44 @@
-August 8th 2024 -
-Decided to learn Django framework to become more competitive in Software Engineering fields regarding the use of python
+##August 20th 2024 
+-Decided to learn Django framework to become more competitive in Software Engineering fields regarding the use of python
+-Watched and followed "Programming with Mosh" video: "Python Django Tutorial for Beginners"
+    NOTES FROM VIDEO
+        -DJANGO FUNDAMENTALS:
+            -Batteries Included: Comes with a lot of features out of the box
+                -Comes with Admin Site
+                -Object-relational Mapper
+                -Authentication
+                -Caching
+            -PERFORMANCE ISNT EVERYTHING
+                -Take account Maturity, Stability, Difficulty and Community
+            -Best practice is to send data from Server to a Client. It is a server side framework
+            -Server provides an API to the Client
+            USE DJANGO TO BUILD API FOR AN ONLINE STORE 
+            -Install pipenv to virtual invironments in order for dependencies not to clash
+            -Had some issues with Python installation, added folder to my Path and fixed the issue 
+            -"django-admin startproject project_name" to initialize the project
+            -add a period at the end to indicate currDirectory as the project directory
+            -use manage.py folder for running server
+            -Every Django app has the same structure
+                -migrations folder: database tables
+                -admin module: determine admin interface
+                -apps: configuring app
+                -models: define model classes for the app (pulls out db data)
+                -tests: write unit tests
+                -views: request handler
+            -After creating a new app register it in settings module
+            VIEWS:
+                - a view function is a function that takes a request and gives a response
+                - request handler
+                - Once you create a view, you need to map it to a URL
+            TEMPLATES:
+                -Return HTML content to client
+            Debugging
+                -Create a launch profile using json and configure
+            DJANGO Debug Toolbar
+                - Debug option
+            Building a Data model
+                DATA Model:
+                    What pieces of data do you want to store? Think Object Oriented Programming
+                    Create database modelling and how they relate to each other
+            When designing an app they should do ONE thing and do it well
+            Make sure to self contain apps and try to have zero coupling between apps
