@@ -14,6 +14,7 @@
             -Server provides an API to the Client
             USE DJANGO TO BUILD API FOR AN ONLINE STORE 
             -Install pipenv to virtual invironments in order for dependencies not to clash
+                - pipenv 
             -Had some issues with Python installation, added folder to my Path and fixed the issue 
             -"django-admin startproject project_name" to initialize the project
             -add a period at the end to indicate currDirectory as the project directory
@@ -42,3 +43,6 @@
                     Create database modelling and how they relate to each other
             When designing an app they should do ONE thing and do it well
             Make sure to self contain apps and try to have zero coupling between apps
+
+## August 21st 2024
+- Try template off of w3 Schools Django tutorials
